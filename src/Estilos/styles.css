@@ -1,0 +1,77 @@
+/* styles.css */
+
+/* Estilos para el contenedor principal de la aplicación */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Estilos para el formulario de agregar tarea */
+  .form {
+    margin-bottom: 20px;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Estilos para la lista de tareas */
+  .task-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .task {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .task-checkbox {
+    margin-right: 10px;
+  }
+  
+  .task-text {
+    flex-grow: 1;
+  }
+  
+  /* Estilos para los botones de acción de las tareas */
+  .task-actions {
+    display: flex;
+  }
+  
+  .task-action {
+    padding: 5px 10px;
+    margin-right: 5px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .task-action:hover {
+    background-color: #0056b3;
+  }
+  
